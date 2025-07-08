@@ -1,4 +1,4 @@
-# Batch Processing: Customer Quality Anlysis Data Engineering Project
+# Batch Processing: Quality Experience Score (QES) Data Engineering Project
 
 ## Summary
 A data pipeline that transforms raw data from hive and load curated data into BQ for downstream analysis.
