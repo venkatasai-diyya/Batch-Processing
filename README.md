@@ -1,12 +1,12 @@
 # Batch Processing: Customer Quality Anlysis Data Engineering Project
 
 ## Summary
-A data pipeline that transforms raw data from GCS and load curated data into BQ for downstream analysis.
+A data pipeline that transforms raw data from hive and load curated data into BQ for downstream analysis.
 
 ## Pipeline
-![Github](https://github.com/user-attachments/assets/70a8de46-7e85-439d-827a-5616da763738)
+/Users/saikiran/Downloads/flowchart.jpg
 
-The data I used is from the CSV file which is updated everyday in an GCS bucket. The data is transformed using dataproc into bigquery where I ran search queries. To make the application the data is ingested every day which was scheduled with Airflow.
+The data I used is from the hive table which is updated everyday and acting as source for pipeline. Pyspark transformations are done on raw data which runs on dataproc cluster  and loads curated data into bigquery where I ran search queries. To make the application the data is ingested every day which was scheduled with Airflow.
 
 ## Challenges
 To build a performant, scalable and automated data pipeline. 
